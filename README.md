@@ -98,4 +98,11 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 
 1. From a unsorted array, check whether there are any two numbers in the array that will sum up to a given number. If there are, return true, otherwise, return false.
 
-1. Given a string, return an array of all of the unique permutations of that string. 
+1. Given a string, return an array of all of the unique permutations of that string. These permutations should only be of the same length as the original string.
+
+ **Example**
+
+  ```js
+  permutations('wdi') // generates ['wdi', 'wid', 'dwi', 'diw', 'iwd', 'idw']
+
+  ```
