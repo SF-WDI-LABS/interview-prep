@@ -81,7 +81,7 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 * [SitePoint JavaScript interview questions](https://www.sitepoint.com/5-javascript-interview-exercises/)
 
 
-## Wednesday's challenges
+## Tuesday's challenges
 
 1. What is `this` in JavaScript?
 
@@ -97,7 +97,7 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   ```
   What’s the output?
 
-  [Solution is question #3 here](https://www.sitepoint.com/5-javascript-interview-exercises/)
+  **[Solution is question #3 here](https://www.sitepoint.com/5-javascript-interview-exercises/)**
 
 1. In JavaScript, what is the prototype of `{}`? Give an example of prototypal inheritance and explain how it works.
 
@@ -109,7 +109,7 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 
 1. Given a string, return an array of all of the unique permutations of that string. These permutations should only be of the same length as the original string.
 
- **Example**
+ Example:
 
   ```js
   permutations('wdi') // generates ['wdi', 'wid', 'dwi', 'diw', 'iwd', 'idw']
