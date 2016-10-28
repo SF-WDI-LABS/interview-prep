@@ -81,9 +81,12 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 * [SitePoint JavaScript interview questions](https://www.sitepoint.com/5-javascript-interview-exercises/)
 
 
-## Today's challenges
+## Wednesday's challenges
 
 1. What is `this` in JavaScript?
+
+  **[`this` resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)**
+
 1. Consider the following code:
 
   ```js
@@ -94,9 +97,15 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   ```
   What’s the output?
 
+  [Solution is question #3 here](https://www.sitepoint.com/5-javascript-interview-exercises/)
+
 1. In JavaScript, what is the prototype of `{}`? Give an example of prototypal inheritance and explain how it works.
 
+  **Prototype resources: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain), [Eloquent JavaScript](http://eloquentjavascript.net/06_object.html#h_SumMlRB7yn)**
+
 1. From a unsorted array, check whether there are any two numbers in the array that will sum up to a given number. If there are, return true, otherwise, return false.
+
+  **[Solution](http://thatjsdude.com/interview/js1.html#sumOfTwo)**
 
 1. Given a string, return an array of all of the unique permutations of that string. These permutations should only be of the same length as the original string.
 
@@ -106,3 +115,88 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   permutations('wdi') // generates ['wdi', 'wid', 'dwi', 'diw', 'iwd', 'idw']
 
   ```
+
+  **[Solution](http://thatjsdude.com/interview/js1.html#permutation)**
+
+## Friday's challenges
+1. What will be the output of the following code? Explain your reasoning.
+
+  ```js
+  var palestrina = {
+     work: "Missa Papae Marcelli",
+     describe: function() {
+         console.log(this.work);
+     }
+  };
+
+  palestrina.describe();
+
+  var erasmus = {
+     work: "Freedom of the Will"
+  };
+
+  palestrina.describe.call(erasmus);
+  ```
+
+1. What is the last line (`palestrina.describe.call(erasmus)` ) doing?  What is the `call` function?
+
+1. What will be the output of the following code? Explain your reasoning.
+
+  ```js
+  function test() {
+     console.log(a);
+     console.log(foo());
+
+     var a = 1;
+     function foo() {
+        return 2;
+     }
+  }
+
+  test();
+  ```
+1. What will be the output of the following code? Explain your reasoning.
+  ```js
+  function test() {
+     console.log(a);
+     console.log(foo());
+
+     var a = 1;
+     function foo() {
+        return 2;
+     }
+  }
+
+  test();
+  ```
+
+1. How would you fix the code above so that the output is `1` `2`.
+
+1. What will be the output of the following code? Explain your reasoning.
+
+  ```js
+  var fullname = 'John Doe';
+  var obj = {
+     fullname: 'Colin Ihrig',
+     prop: {
+        fullname: 'Aurelio De Rosa',
+        getFullname: function() {
+           return this.fullname;
+        }
+     }
+  };
+
+  console.log(obj.prop.getFullname());
+
+  var test = obj.prop.getFullname;
+
+  console.log(test());
+  ```
+1. How would you fix the code above to output `Aurelio De Rosa` for both `console.log`s?
+
+**Sources and solutions for Friday's exercises**
+* [Invoking JS Functions with Call and Apply](http://adripofjavascript.com/blog/drips/invoking-javascript-functions-with-call-and-apply.html)
+* [5 typical JS interview exercises](https://www.sitepoint.com/5-typical-javascript-interview-exercises/)
+
+**Worth reading**
+* [MDN's Re-Introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
