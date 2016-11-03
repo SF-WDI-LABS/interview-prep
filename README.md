@@ -200,3 +200,50 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 
 **Worth reading**
 * [MDN's Re-Introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+
+## Wednesday's Challenges
+
+1. What would be the output of the following code?
+
+  ```javascript
+  function makeFunc() {
+    var name = "Mozilla";
+    function displayName() {
+      alert(name);
+    }
+    return displayName;
+  }
+
+  var myFunc = makeFunc();
+  myFunc();
+
+  ```
+1. What is a closure in Javascript?
+
+1. What would be the result of running this code?
+
+  ```javascript
+  (function() {
+  	function foo(x) {
+  		var baz = 3;
+  		return function (y) {
+  		console.log(x + y + (++baz));
+  		}
+  	}
+  var moo = foo(2);
+  moo(1);
+  moo(1);
+  })();
+  ```
+1. What's with the parentheses wrapping this whole code block and the `()` at the end?
+
+1. What is an immediately invoked function expression? IIFE?
+
+1. What is the difference between `++baz` and `baz++`?
+
+**Sources and solutions for Wednesday's exercises**
+* [MDN's docs on JavaScript closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+* [Find the question "What are closures?" on this page](https://www.doppnet.com/10-advanced-javascript-interview-questions.html) for the solution for the second code sample above. (Alternatively, you could just run the code to find the solution.)
+
+**Further reading**
+* [Demystifying JavaScript Closures, Callbacks, and IIFEs](https://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/)
