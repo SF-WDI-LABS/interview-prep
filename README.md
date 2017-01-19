@@ -8,7 +8,7 @@ Naming variables well shows that you write readable, semantic code. Don’t name
 
   * [Ruby reserved words]( http://www.java2s.com/Code/Ruby/Language-Basics/Rubysreservedwords.htm)
 
-Naming a variable by the data type it will hold is far more likely to generate an error and/or confuse you as you move through a solution. Interviewers are looking to see if you’re thoughtful in naming variables. Naming a variable “string” is sure to show that you don’t prioritize clarity in naming your variables.
+Naming a variable by the data type it will hold is far more likely to generate an error and/or confuse you as you move through a solution. Interviewers are looking to see if you’re thoughtful in naming variables. Naming a variable “string” (or “str“, for that matter) is sure to show that you don’t prioritize clarity in naming your variables.
 
 ### Test your code
 
@@ -39,7 +39,7 @@ Return breaks you out of a method. Don’t return until you have fully processed
 
 
 ### Know the exact syntax:
-  * **for loops** - the i stands for index and is just a number to keep track of how many times you’ve gone through the loop. It doesn’t refer to the location in the string or the array that you’re scanning. `arr[i]` or `str[i]` refers to the element or character at the `i`th position of the array/string.
+  * **for loops** - the i stands for index and is just a number to keep track of how many times you’ve gone through the loop. It doesn’t refer to the location in the string or the array that you’re scanning. `arr[i]` or `str[i]` refers to the element or character at the `i`th position of the array/string. No matter how you're looping or inspecting strings or arrays, ** keep the *index* and the *value at that index* separate in your mind. ** 
   * **Conditionals**, also known as if/else
       - else is not required. If you want to do something in one case and simply continue to loop if that condition isn’t true, you do not need an else.
 
