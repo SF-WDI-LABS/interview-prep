@@ -115,7 +115,9 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   * The `console.logs(typeof...)` solution is at [this resource under question #3 ](https://www.sitepoint.com/5-javascript-interview-exercises/)
   * Prototype resources: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain), [Eloquent JavaScript](http://eloquentjavascript.net/06_object.html#h_SumMlRB7yn)
   * [Summing a pair of numbers in an array](http://thatjsdude.com/interview/js1.html#sumOfTwo)
-  * [permutations](http://thatjsdude.com/interview/js1.html#permutation)**
+  * [permutations](http://thatjsdude.com/interview/js1.html#permutation)
+
+  
 <!--
 ## Day 2 challenges
 1. What will be the output of the following code? Explain your reasoning.
