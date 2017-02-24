@@ -39,6 +39,7 @@ Return breaks you out of a method. Don’t return until you have fully processed
 
 
 ### Know the exact syntax:
+  * **Assignment vs. Comparison** - `=` and `===` (or `==`, depending on the language) are **DIFFERENT**! If you miss this one, you could be quickly written off as lacking attention to detail.
   * **for loops** - the i stands for index and is just a number to keep track of how many times you’ve gone through the loop. It doesn’t refer to the location in the string or the array that you’re scanning. `arr[i]` or `str[i]` refers to the element or character at the `i`th position of the array/string. No matter how you're looping or inspecting strings or arrays, **keep the *index* and the *value at that index* separate in your mind.**
   * **Conditionals**, also known as if/else
       - else is not required. If you want to do something in one case and simply continue to loop if that condition isn’t true, you do not need an else.
@@ -117,8 +118,8 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   * [Summing a pair of numbers in an array](http://thatjsdude.com/interview/js1.html#sumOfTwo)
   * [permutations](http://thatjsdude.com/interview/js1.html#permutation)
 
-  
-<!--
+
+
 ## Day 2 challenges
 1. What will be the output of the following code? Explain your reasoning.
 
@@ -201,6 +202,8 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 
 **Worth reading**
 * [MDN's Re-Introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+
+<!--
 
 ## Day 3 Challenges
 
