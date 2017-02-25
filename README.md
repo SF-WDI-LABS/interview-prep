@@ -58,12 +58,13 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 6. Test your syntactically-correct code with your input and output.
 7. Your interviewer will often ask you about Big O at an earlier step. If you’re feeling confident, though, now is a good time to offer.
 
-<!--
+
 ## Interview questions we have asked you
 
 * isPalindrome //is the string a palindrome?
 * arePermutations(str1, str2) //are these two strings permutations of one another?
 * [remove duplicate characters from a string](http://thatjsdude.com/interview/js1.html#removeDuplicateChar)
+* isPrime(integer) - given an integer return a boolean to tell whether the integer is prime
 * Fibonacci sequence generator - given `n`, return the `n`th Fibonacci number
 * Mumbling. Given a string `abcd` return `A-Bb-Ccc-Dddd`. The `n`th letter in the alphabet will be replaced by `n` copies of itself, with the first capitalized.
 * Build a bubble sort algorithm from scratch.
@@ -72,7 +73,7 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 * Factorial: given a number `n` you should be able to return `n` factorial (`n!`).
 * Shorten an article’s text to a 40-character preview, but don’t include any word that is cut in the middle. (For "This string is a bit longer than 40 characters..." you would return "This string is a bit longer than 40" instead of "This string is a bit longer than 40 char".)
 * I run a site where authors can submit “choose your own adventure” stories.  Design a system that will let us automatically check how many decisions a reader has to make before the quickest “happy” ending. You should design the data structure to hold the stories, as well.
- -->
+* Given a site map, what's the minimum number of clicks required to reach a "purchase" page.
 
 
 ## Resources
@@ -203,7 +204,6 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 **Worth reading**
 * [MDN's Re-Introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
-<!--
 
 ## Day 3 Challenges
 
@@ -250,4 +250,4 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 * [Find the question "What are closures?" on this page](https://www.doppnet.com/10-advanced-javascript-interview-questions.html) for the solution for the second code sample above. (Alternatively, you could just run the code to find the solution.)
 
 **Further reading**
-* [Demystifying JavaScript Closures, Callbacks, and IIFEs](https://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/) -->
+* [Demystifying JavaScript Closures, Callbacks, and IIFEs](https://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/)
