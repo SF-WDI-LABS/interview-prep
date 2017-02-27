@@ -236,7 +236,7 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   moo(1);
   })();
   ```
-1. What's with the parentheses wrapping this whole code block and the `()` at the end?
+1. What's going on with the parentheses wrapping this whole code block and the `()` at the end?
 
 1. What is an immediately invoked function expression? IIFE?
 
