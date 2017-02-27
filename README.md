@@ -62,12 +62,9 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 ## Interview questions we have asked you
 
 * isPalindrome //is the string a palindrome?
-* arePermutations(str1, str2) //are these two strings permutations of one another?
 * [remove duplicate characters from a string](http://thatjsdude.com/interview/js1.html#removeDuplicateChar)
 * isPrime(integer) - given an integer return a boolean to tell whether the integer is prime
-* Fibonacci sequence generator - given `n`, return the `n`th Fibonacci number
 * Mumbling. Given a string `abcd` return `A-Bb-Ccc-Dddd`. The `n`th letter in the alphabet will be replaced by `n` copies of itself, with the first capitalized.
-* Build a bubble sort algorithm from scratch.
 * Remove Duplicates from an Array
 * Compare Strings.
 * Factorial: given a number `n` you should be able to return `n` factorial (`n!`).
@@ -250,4 +247,5 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 * [Find the question "What are closures?" on this page](https://www.doppnet.com/10-advanced-javascript-interview-questions.html) for the solution for the second code sample above. (Alternatively, you could just run the code to find the solution.)
 
 **Further reading**
+* [Understand Javascript Closures](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * [Demystifying JavaScript Closures, Callbacks, and IIFEs](https://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/)
