@@ -39,7 +39,8 @@ Return breaks you out of a method. Don’t return until you have fully processed
 
 
 ### Know the exact syntax:
-  * **for loops** - the i stands for index and is just a number to keep track of how many times you’ve gone through the loop. It doesn’t refer to the location in the string or the array that you’re scanning. `arr[i]` or `str[i]` refers to the element or character at the `i`th position of the array/string. No matter how you're looping or inspecting strings or arrays, **keep the *index* and the *value at that index* separate in your mind.** 
+  * **Assignment vs. Comparison** - `=` and `===` (or `==`, depending on the language) are **DIFFERENT**! If you miss this one, you could be quickly written off as lacking attention to detail.
+  * **for loops** - the i stands for index and is just a number to keep track of how many times you’ve gone through the loop. It doesn’t refer to the location in the string or the array that you’re scanning. `arr[i]` or `str[i]` refers to the element or character at the `i`th position of the array/string. No matter how you're looping or inspecting strings or arrays, **keep the *index* and the *value at that index* separate in your mind.**
   * **Conditionals**, also known as if/else
       - else is not required. If you want to do something in one case and simply continue to loop if that condition isn’t true, you do not need an else.
 
@@ -61,17 +62,15 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 ## Interview questions we have asked you
 
 * isPalindrome //is the string a palindrome?
-* arePermutations(str1, str2) //are these two strings permutations of one another?
 * [remove duplicate characters from a string](http://thatjsdude.com/interview/js1.html#removeDuplicateChar)
-* Fibonacci sequence generator - given `n`, return the `n`th Fibonacci number
+* isPrime(integer) - given an integer return a boolean to tell whether the integer is prime
 * Mumbling. Given a string `abcd` return `A-Bb-Ccc-Dddd`. The `n`th letter in the alphabet will be replaced by `n` copies of itself, with the first capitalized.
-* Build a bubble sort algorithm from scratch.
 * Remove Duplicates from an Array
 * Compare Strings.
 * Factorial: given a number `n` you should be able to return `n` factorial (`n!`).
 * Shorten an article’s text to a 40-character preview, but don’t include any word that is cut in the middle. (For "This string is a bit longer than 40 characters..." you would return "This string is a bit longer than 40" instead of "This string is a bit longer than 40 char".)
 * I run a site where authors can submit “choose your own adventure” stories.  Design a system that will let us automatically check how many decisions a reader has to make before the quickest “happy” ending. You should design the data structure to hold the stories, as well.
-
+* Given a site map, what's the minimum number of clicks required to reach a "purchase" page.
 
 
 ## Resources
@@ -81,11 +80,9 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 * [SitePoint JavaScript interview questions](https://www.sitepoint.com/5-javascript-interview-exercises/)
 
 
-## Tuesday's challenges
+## Day 1 challenges
 
 1. What is `this` in JavaScript?
-
-  **[`this` resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)**
 
 1. Consider the following code:
 
@@ -97,15 +94,10 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   ```
   What’s the output?
 
-  **[Solution is question #3 here](https://www.sitepoint.com/5-javascript-interview-exercises/)**
 
 1. In JavaScript, what is the prototype of `{}`? Give an example of prototypal inheritance and explain how it works.
 
-  **Prototype resources: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain), [Eloquent JavaScript](http://eloquentjavascript.net/06_object.html#h_SumMlRB7yn)**
-
 1. From a unsorted array, check whether there are any two numbers in the array that will sum up to a given number. If there are, return true, otherwise, return false.
-
-  **[Solution](http://thatjsdude.com/interview/js1.html#sumOfTwo)**
 
 1. Given a string, return an array of all of the unique permutations of that string. These permutations should only be of the same length as the original string.
 
@@ -116,9 +108,17 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 
   ```
 
-  **[Solution](http://thatjsdude.com/interview/js1.html#permutation)**
+  **Sources and solutions for Day 1 exercises**
 
-## Friday's challenges
+  * [`this` resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+  * The `console.logs(typeof...)` solution is at [this resource under question #3 ](https://www.sitepoint.com/5-javascript-interview-exercises/)
+  * Prototype resources: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain), [Eloquent JavaScript](http://eloquentjavascript.net/06_object.html#h_SumMlRB7yn)
+  * [Summing a pair of numbers in an array](http://thatjsdude.com/interview/js1.html#sumOfTwo)
+  * [permutations](http://thatjsdude.com/interview/js1.html#permutation)
+
+
+
+## Day 2 challenges
 1. What will be the output of the following code? Explain your reasoning.
 
   ```js
@@ -194,14 +194,15 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   ```
 1. How would you fix the code above to output `Aurelio De Rosa` for both `console.log`s?
 
-**Sources and solutions for Friday's exercises**
+**Sources and solutions for Day 2 exercises**
 * [Invoking JS Functions with Call and Apply](http://adripofjavascript.com/blog/drips/invoking-javascript-functions-with-call-and-apply.html)
 * [5 typical JS interview exercises](https://www.sitepoint.com/5-typical-javascript-interview-exercises/)
 
 **Worth reading**
 * [MDN's Re-Introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
-## Wednesday's Challenges
+
+## Day 3 Challenges
 
 1. What would be the output of the following code?
 
@@ -235,15 +236,16 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   moo(1);
   })();
   ```
-1. What's with the parentheses wrapping this whole code block and the `()` at the end?
+1. What's going on with the parentheses wrapping this whole code block and the `()` at the end?
 
 1. What is an immediately invoked function expression? IIFE?
 
 1. What is the difference between `++baz` and `baz++`?
 
-**Sources and solutions for Wednesday's exercises**
+**Sources and solutions for Day 3 exercises**
 * [MDN's docs on JavaScript closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 * [Find the question "What are closures?" on this page](https://www.doppnet.com/10-advanced-javascript-interview-questions.html) for the solution for the second code sample above. (Alternatively, you could just run the code to find the solution.)
 
 **Further reading**
+* [Understand Javascript Closures](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * [Demystifying JavaScript Closures, Callbacks, and IIFEs](https://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/)
