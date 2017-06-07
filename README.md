@@ -51,7 +51,7 @@ Return breaks you out of a method. Don’t return until you have fully processed
 To confirm, if you were to give me the string `'apple'`, you would expect this function to return the object `{ 'a':1, 'p':2, 'l':1, 'e':1}`?
 And if you were to give me a string like '! !', would you want that to output counts for all the characters (`{'!':2, ' ':1}`), or just the non-whitespace, or none of those since they aren't letters?
 2. Pseudocode so you _and the interviewer_ can focus on logic first.
-I'm going to start with pseudocode, and I can transition to JavaScript after.
+Say something like: "I'm going to start with pseudocode, and I can transition to JavaScript after."
 3. Test your pseudocode with your sample input and output.
 4. Check in with your interviewer.  They may have more edge cases for you to handle. They may ask you about runtime (Big O).  They may just want you to move on to syntactically-correct code.
 5. Write syntactically-correct code. Take a second look at syntax after you finish a draft.
@@ -65,6 +65,7 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 * [remove duplicate characters from a string](http://thatjsdude.com/interview/js1.html#removeDuplicateChar)
 * isPrime(integer) - given an integer return a boolean to tell whether the integer is prime
 * Factorial: given a number `n` you should be able to return `n` factorial (`n!`).
+* letter count: given a string like `'apple'` return an object that counts the number of occurances of all of the letters in the word `{a:1, p:2, l:1 , e:1}`
 
 <!--
 * Mumbling. Given a string `abcd` return `A-Bb-Ccc-Dddd`. The `n`th letter in the alphabet will be replaced by `n` copies of itself, with the first capitalized.
@@ -88,7 +89,7 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 
 1. What is `this` in JavaScript?
 
-1. Consider the following code:
+2. Consider the following code:
 
   ```js
   console.log(typeof null);
@@ -99,11 +100,11 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   What’s the output?
 
 
-1. In JavaScript, what is the prototype of `{}`? Give an example of prototypal inheritance and explain how it works.
+3. In JavaScript, what is the prototype of `{}`? Give an example of prototypal inheritance and explain how it works.
 
-1. From a unsorted array, check whether there are any two numbers in the array that will sum up to a given number. If there are, return true, otherwise, return false.
+4. From a unsorted array, check whether there are any two numbers in the array that will sum up to a given number. If there are, return true, otherwise, return false.
 
-1. Given a string, return an array of all of the unique permutations of that string. These permutations should only be of the same length as the original string.
+5. Given a string, return an array of all of the unique permutations of that string. These permutations should only be of the same length as the original string.
 
  Example:
 
@@ -142,9 +143,9 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   palestrina.describe.call(erasmus);
   ```
 
-1. What is the last line (`palestrina.describe.call(erasmus)` ) doing?  What is the `call` function?
+2. What is the last line (`palestrina.describe.call(erasmus)` ) doing?  What is the `call` function?
 
-1. What will be the output of the following code? Explain your reasoning.
+3. What will be the output of the following code? Explain your reasoning.
 
   ```js
   function test() {
@@ -159,7 +160,7 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 
   test();
   ```
-1. What will be the output of the following code? Explain your reasoning.
+4. What will be the output of the following code? Explain your reasoning.
   ```js
   function test() {
      console.log(a);
@@ -174,9 +175,9 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   test();
   ```
 
-1. How would you fix the code above so that the output is `1` `2`.
+5. How would you fix the code above so that the output is `1` `2`.
 
-1. What will be the output of the following code? Explain your reasoning.
+6. What will be the output of the following code? Explain your reasoning.
 
   ```js
   var fullname = 'John Doe';
@@ -196,7 +197,7 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
 
   console.log(test());
   ```
-1. How would you fix the code above to output `Aurelio De Rosa` for both `console.log`s?
+7. How would you fix the code above to output `Aurelio De Rosa` for both `console.log`s?
 
 **Sources and solutions for Day 2 exercises**
 * [Invoking JS Functions with Call and Apply](http://adripofjavascript.com/blog/drips/invoking-javascript-functions-with-call-and-apply.html)
@@ -223,9 +224,9 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   myFunc();
 
   ```
-1. What is a closure in Javascript?
+2. What is a closure in Javascript?
 
-1. What would be the result of running this code?
+3. What would be the result of running this code?
 
   ```javascript
   (function() {
@@ -240,11 +241,11 @@ I'm going to start with pseudocode, and I can transition to JavaScript after.
   moo(1);
   })();
   ```
-1. What's going on with the parentheses wrapping this whole code block and the `()` at the end?
+4. What's going on with the parentheses wrapping this whole code block and the `()` at the end?
 
-1. What is an immediately invoked function expression? IIFE?
+5. What is an immediately invoked function expression? IIFE?
 
-1. What is the difference between `++baz` and `baz++`?
+6. What is the difference between `++baz` and `baz++`?
 
 **Sources and solutions for Day 3 exercises**
 * [MDN's docs on JavaScript closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
