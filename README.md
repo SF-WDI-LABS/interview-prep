@@ -79,7 +79,6 @@ Say something like: "I'm going to start with pseudocode, and I can transition to
 
 
 ## Resources
-* [A few previous cohort resources](https://github.com/SF-WDI-LABS?utf8=%E2%9C%93&query=interview)
 * [JS dude practice problems](http://thatjsdude.com/interview/js1.html)
 * [JS dude JavaScript language specifics](http://thatjsdude.com/interview/js2.html)
 * [SitePoint JavaScript interview questions](https://www.sitepoint.com/5-javascript-interview-exercises/)
