@@ -160,20 +160,6 @@ Say something like: "I'm going to start with pseudocode, and I can transition to
 
   test();
   ```
-4. What will be the output of the following code? Explain your reasoning.
-  ```js
-  function test() {
-     console.log(a);
-     console.log(foo());
-
-     var a = 1;
-     function foo() {
-        return 2;
-     }
-  }
-
-  test();
-  ```
 
 5. How would you fix the code above so that the output is `1` `2`.
 
