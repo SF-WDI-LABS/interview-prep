@@ -57,7 +57,7 @@ Start with JS (more manageable) and assume Ruby has all of those methods and mor
 
 Make sure that you return the type that the interviewer asks for. It looks careless to return an array when the task asks for a string.
 
-Return breaks you out of a method. Don’t return until you have fully processed the value you want to return. If you have a return in the middle of a loop, that loop will cease to run and won’t process the input any further. Sometimes that’s what you want, but often, you want to return at the END of a  
+Return breaks you out of a method. Don’t return until you have fully processed the value you want to return. If you have a return in the middle of a loop, that loop will cease to run and won’t process the input any further. Sometimes that’s what you want, but often, you want to return AFTER a loop finishes.
 
 
 ### Know the exact syntax:
@@ -65,6 +65,18 @@ Return breaks you out of a method. Don’t return until you have fully processed
   * **for loops** - the i stands for index and is just a number to keep track of how many times you’ve gone through the loop. It doesn’t refer to the location in the string or the array that you’re scanning. `arr[i]` or `str[i]` refers to the element or character at the `i`th position of the array/string. No matter how you're looping or inspecting strings or arrays, **keep the *index* and the *value at that index* separate in your mind.**
   * **Conditionals**, also known as if/else
       - else is not required. If you want to do something in one case and simply continue to loop if that condition isn’t true, you do not need an else.
+
+
+## Whiteboarding practice!
+
+1. From a unsorted array, check whether there are any two numbers in the array that will sum up to a given number. If there are, return true, otherwise, return false.
+2. Given a string, remove all of the characters that appear more than once in that string and return the resulting string.
+3. Shorten an article’s text to a 40-character preview, but don’t include any word that is cut in the middle. (For "This string is a bit longer than 40 characters..." you would return "This string is a bit longer than 40 ..." instead of "This string is a bit longer than 40 char...".)
+
+
+* [Summing a pair of numbers in an array](http://thatjsdude.com/interview/js1.html#sumOfTwo)
+* [remove duplicate characters from a string](http://thatjsdude.com/interview/js1.html#removeDuplicateChar)
+* [abbreviate article](/abbreviate.js)
 
 
 ## Sample interview questions we have asked you
