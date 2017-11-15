@@ -1,5 +1,27 @@
 # Technical Interview Prep
 
+### What are the objectives?
+<!-- specific/measurable goal for students to achieve -->
+*After this workshop, developers will be able to:*
+- employ a specific process in approaching whiteboarding.
+- avoid specific pitfalls that plague some applicants.
+- go into an interview with some more whiteboarding practice.
+- have the tools to practice on your own!
+
+## Interview Process Steps
+
+1. Clarify question using a sample input and output.  This is a great time to note any edge cases you see and to make sure you understand the question correctly.
+To confirm, if you were to give me the string `'apple'`, you would expect this function to return the object `{ 'a':1, 'p':2, 'l':1, 'e':1}`?
+And if you were to give me a string like '! !', would you want that to output counts for all the characters (`{'!':2, ' ':1}`), or just the non-whitespace, or none of those since they aren't letters?
+2. Pseudocode so you _and the interviewer_ can focus on logic first.
+Say something like: "I'm going to start with pseudocode, and I can transition to JavaScript after."
+3. Test your pseudocode with your sample input and output.
+4. Check in with your interviewer.  They may have more edge cases for you to handle. They may ask you about runtime (Big O).  They may just want you to move on to syntactically-correct code.
+5. Write syntactically-correct code. Take a second look at syntax after you finish a draft.
+6. Test your syntactically-correct code with your input and output.
+7. Your interviewer will often ask you about Big O at an earlier step. If you’re feeling confident, though, now is a good time to offer.
+
+
 ## Tips
 ### Variable names
 
@@ -45,20 +67,6 @@ Return breaks you out of a method. Don’t return until you have fully processed
       - else is not required. If you want to do something in one case and simply continue to loop if that condition isn’t true, you do not need an else.
 
 
-## Interview Process Steps
-
-1. Clarify question using a sample input and output.  This is a great time to note any edge cases you see and to make sure you understand the question correctly.
-To confirm, if you were to give me the string `'apple'`, you would expect this function to return the object `{ 'a':1, 'p':2, 'l':1, 'e':1}`?
-And if you were to give me a string like '! !', would you want that to output counts for all the characters (`{'!':2, ' ':1}`), or just the non-whitespace, or none of those since they aren't letters?
-2. Pseudocode so you _and the interviewer_ can focus on logic first.
-Say something like: "I'm going to start with pseudocode, and I can transition to JavaScript after."
-3. Test your pseudocode with your sample input and output.
-4. Check in with your interviewer.  They may have more edge cases for you to handle. They may ask you about runtime (Big O).  They may just want you to move on to syntactically-correct code.
-5. Write syntactically-correct code. Take a second look at syntax after you finish a draft.
-6. Test your syntactically-correct code with your input and output.
-7. Your interviewer will often ask you about Big O at an earlier step. If you’re feeling confident, though, now is a good time to offer.
-
-
 ## Sample interview questions we have asked you
 
 * isPalindrome //is the string a palindrome?
@@ -79,10 +87,15 @@ Say something like: "I'm going to start with pseudocode, and I can transition to
 
 
 ## Resources
+* [CodeFights Interview practice](https://codefights.com/interview-practice)
+* [Free Code Camp algorithm challenges](https://www.freecodecamp.org/challenges/get-set-for-our-algorithm-challenges)
+* [Codewars](https://www.codewars.com/)
+* [HackerRank](https://www.hackerrank.com/)
 * [JS dude practice problems](http://thatjsdude.com/interview/js1.html)
 * [JS dude JavaScript language specifics](http://thatjsdude.com/interview/js2.html)
 * [SitePoint JavaScript interview questions](https://www.sitepoint.com/5-javascript-interview-exercises/)
 * [Some previous cohort resources](https://github.com/SF-WDI-LABS?utf8=%E2%9C%93&q=interview&type=&language=)
+
 
 
 ## Day 1 challenges
